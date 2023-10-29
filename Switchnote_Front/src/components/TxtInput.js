@@ -8,7 +8,7 @@ import MyTextarea from './MyTextarea.js';
 import { CallGPT } from '../api/gpt';
 import TextInput from './TextInput.js';
 import { CallKoBERT } from '../api/kobert';
-// import {ConvertPPT} from '../api/convertPPT.py'
+// import {generatePPT} from '../api/generatePPT.py'
 
 function TxtInput({ getProjectById }) {
   const [projectTitle, setProjectTitle] = useState('');
